@@ -1,0 +1,9 @@
+class Solution:
+    def runningSum(self, nums):
+        sum=0
+        for i in len(nums):
+            sum += nums[i]
+    nums = list(map(int, input().split())  
+    print(runningSum(nums))            
+            
+        
