@@ -1,0 +1,13 @@
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        no_duplicated_list=[]
+        for i in nums:
+            if i not in no_duplicated_list:
+                no_duplicated_list.append(i)
+                
+            else:
+                no_duplicated_list.remove(i)
+                
+        return no_duplicated_list.pop()        
+            
+        
